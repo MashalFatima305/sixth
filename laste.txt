@@ -1,0 +1,12 @@
+conda activate base
+conda activate Streamlit
+conda activate dashboard_env
+conda activate streamlit_env
+conda install -c conda-forge streamlit
+conda install pandas
+conda install -c conda-forge altair
+conda install -c conda-forge "vegafusion-python-embed>=1.5.0" "vegafusion>=1.5.0"
+conda install -c conda-forge "vegafusion-python-embed>=1.5.0" "vegafusion>=1.5.0"
+streamlit run laste.py
+
+
